@@ -1,0 +1,22 @@
+{
+  "name": "serverforvercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app1.js",
+  "scripts": {
+    "start": "node app1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.13",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.9.14",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.1.0"
+  }
+}
